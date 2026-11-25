@@ -1,0 +1,19 @@
+# Python / Django
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.sqlite3
+**/*.sqlite3
+backend/media_bucket/
+backend/tmp_chunks/
+.env
+**/.env
+.env.*
+!.env.example
+
+# Node / React / Vercel
+frontend/node_modules/
+frontend/dist/
+.vercel/
+.DS_Store
